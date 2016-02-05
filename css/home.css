@@ -8,6 +8,7 @@ html {
 body {
    margin: 0;
    padding: 0;
+   font-family: sans-serif;
 }
 
 .top-home-main {
@@ -76,6 +77,7 @@ body {
 .workshop > p {
   font-size: 21vw;
   margin: auto;
+  font-family: sans-serif;
 }
 
 
@@ -109,7 +111,6 @@ body {
 }
 
 .descrip-text {
-  font-family: open-sans;
   font-size: 27px;
   text-align: center;
 }
@@ -123,7 +124,6 @@ body {
   background-size: cover;
 }
 .it-works {
-  font-family: open-sans;
   font-size: 27px;
   text-align: center;
 }
@@ -135,22 +135,6 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
-
-.mid-cont1 {
-  width: 90%;
-  height: 500px;
-  border: 1px solid black;
-  margin: 0 auto 0 auto;
-}
-
-.pics {
-  width: 75px;
-  height: 75px;
-  border: 1px solid black;
-  margin: auto;
-  background: url('../img/fourthpic.png') bottom no-repeat;
-  background-size: cover;
 }
 
 .help-section {
@@ -168,7 +152,6 @@ body {
 }
 
 .descrip-text2 {
-  font-family: open-sans;
   font-size: 27px;
   text-align: center;
 }
