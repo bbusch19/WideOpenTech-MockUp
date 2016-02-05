@@ -21,7 +21,6 @@ body {
 .nav-wrapper {
   width: 100%;
   height: 75px;
-  background: #ccc;
 }
 
 .hamburger {
@@ -37,7 +36,7 @@ body {
   width: 180px;
   height: 50px;
   float: left;
-  /*background: black;*/
+  background: url("http://wideopentech.com/themes/wot-2013-gm/_/img/wot-logo-whitex2.svg") no-repeat;
   margin: 5px 0 0 5px;
 }
 
