@@ -1,14 +1,24 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:400,700,900italic);
 html {
-   box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
-*, *​:before, *:after {
-   box-sizing: inherit;
-}
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+  }
+
 body {
    margin: 0;
    padding: 0;
    font-family: sans-serif;
+}
+
+p {
+  -webkit-margin-before:0em;
+-webkit-margin-after:0em;
 }
 
 .top-home-main {
@@ -44,7 +54,25 @@ body {
   display: none;
   width: 65%;
   height: 50px;
-  background: red;
+  background: none;
+  padding-top: 15px;
+}
+
+.nav-link {
+  color: white;
+  display: inline-block;
+  margin-left: 15px;
+}
+.contact {
+  color: white;
+  display: inline-block;
+  margin-left: 15px;
+  background: #c0d635;
+  border-radius: 10px;
+  width: 100px;
+  height: 50px;
+  text-align: center;
+  padding-top: 15px;
 }
 
 .intro-wrapper {
@@ -55,32 +83,29 @@ body {
   text-align: center;
 }
 
-.digital {
-  width: 100px;
-  height: 50px;
-  /*border: 1px solid black;*/
-  margin: 0 auto 0 auto;
-  color: white;
-  text-align: center;
-}
-
 .workshop {
   width: auto;
   height: auto;
   /*border: 1px solid black;*/
   color: white;
   text-align: center;
-  margin: auto;
+  margin: 0 auto 0 auto;
 }
 
-.workshop > p {
-  font-size: 21vw;
+.building-solutions {
+  color: white;
+  font-size: 20px
+}
+
+span {
+  font-size: 75px;
   margin: auto;
   font-family: sans-serif;
+  display: block;
 }
 
 
-.learn.more {
+.learn-more {
   width: 80%;
   height: 50px;
   border-radius: 10px;
@@ -90,7 +115,7 @@ body {
   color: white;
   text-align: center;
   background: #c0d635;
-  padding-top: 5px;
+  padding-top: 15px;
 }
 
 .descrip {
@@ -169,17 +194,22 @@ body {
   border-radius: 10px;
 }
 
-@media (min-width: 950px) {
+@media (min-width: 700px) {
   .hamburger{
     display: none;
   }
   .nav {
     display: block;
-  }
-  .tool-box {
-    flex-direction: row;
+    float: right;
   }
   .mid-cont1 {
     width: 33%;
+  }
+  span {
+    font-size: 150px
+  }
+  .learn-more {
+    margin-top: 20px;
+    width: 200px;
   }
 }
