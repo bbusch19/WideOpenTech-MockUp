@@ -158,7 +158,6 @@ span {
 .middle-icons {
   width: 100%;
   height: auto;
-  border: 1px solid black;
   display: flex;
   flex-direction: column;
   /*justify-content: center;*/
@@ -167,16 +166,42 @@ span {
 .tools {
   width: 100%;
   height: 300px;
-  border: 1px solid black;
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
 }
 
-.inner-tool {
-  border: 1px solid black;
+.inner-tool1 {
   height: 100px;
   width: 100px;
   margin: auto;
   background: url('../img/fourthpic.png') bottom no-repeat;
   background-size: cover;
+  margin-top: 10px;
+}
+
+.inner-tool2 {
+  height: auto;
+  width: 100%;
+  text-align: center;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.inner-tool3 {
+  height: auto;
+  width: 100%;
+  margin: auto;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.inner-tool4 {
+  width: 50px;
+  height: 50px;
+  background: url('../img/arrowpic.png') bottom no-repeat;
+  background-size: cover;
+  margin: auto;
+  margin-top: 10px;
 }
 
 .help-section {
