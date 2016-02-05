@@ -1,0 +1,190 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,900italic);
+html {
+   box-sizing: border-box;
+}
+*, *​:before, *:after {
+   box-sizing: inherit;
+}
+body {
+   margin: 0;
+   padding: 0;
+}
+
+.top-home-main {
+  width: 100%;
+  height: 400px;
+  background: url('../img/wot-masthead-dark.jpg') bottom no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.nav-wrapper {
+  width: 100%;
+  height: 75px;
+  background: #ccc;
+}
+
+.hamburger {
+  height: 50px;
+  width: 50px;
+  background: url("../img/white-hamburger.png") no-repeat;
+  background-size: contain;
+  float: right;
+  margin: 5px 5px 0 0;
+}
+
+.logo-top {
+  width: 180px;
+  height: 50px;
+  float: left;
+  /*background: black;*/
+  margin: 5px 0 0 5px;
+}
+
+.nav {
+  display: none;
+  width: 65%;
+  height: 50px;
+  background: red;
+}
+
+.intro-wrapper {
+  width: 100%;
+  height: 300px;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+}
+
+.digital {
+  width: 100px;
+  height: 50px;
+  /*border: 1px solid black;*/
+  margin: 0 auto 0 auto;
+  color: white;
+  text-align: center;
+}
+
+.workshop {
+  width: auto;
+  height: auto;
+  /*border: 1px solid black;*/
+  color: white;
+  text-align: center;
+  margin: auto;
+}
+
+.workshop > p {
+  font-size: 21vw;
+  margin: auto;
+}
+
+
+.learn.more {
+  width: 80%;
+  height: 50px;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  color: white;
+  text-align: center;
+  background: #c0d635;
+  padding-top: 5px;
+}
+
+.descrip {
+  width: 100%;
+  height: auto;
+  /*background: grey;*/
+  padding-top: 20px;
+}
+
+.mid-container {
+  width: 90%;
+  height: auto;
+  border: 1px solid black;
+  margin: 0 auto 0 auto;
+}
+
+.descrip-text {
+  font-family: open-sans;
+  font-size: 27px;
+  text-align: center;
+}
+
+.tool-pic {
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  margin: auto;
+}
+.it-works {
+  font-family: open-sans;
+  font-size: 27px;
+  text-align: center;
+}
+
+.tool-box {
+  width: 100%;
+  height: auto;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.mid-cont1 {
+  width: 90%;
+  height: 500px;
+  border: 1px solid black;
+  margin: 0 auto 0 auto;
+}
+
+.help-section {
+  width: 100%;
+  height: auto;
+  /*background: grey;*/
+}
+
+.lower-mid-cont {
+  width: 90%;
+  height: auto;
+  border: 1px solid black;
+  margin: 0 auto 0 auto;
+  text-align: center;
+}
+
+.descrip-text2 {
+  font-family: open-sans;
+  font-size: 27px;
+  text-align: center;
+}
+
+.solutions {
+    width: 90%;
+    height:200px;
+    border: 1px solid black;
+    margin: 0 auto 10px auto;
+}
+
+.contact-button {
+  width: 100%;
+  height: 50px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+@media (min-width: 950px) {
+  .hamburger{
+    display: none;
+  }
+  .nav {
+    display: block;
+  }
+  .tool-box {
+    flex-direction: row;
+  }
+  .mid-cont1 {
+    width: 33%;
+  }
+}
