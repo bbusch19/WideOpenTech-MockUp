@@ -29,6 +29,13 @@ p {
   color: #878787;
 }
 
+.green-text {
+  color: #BDD537;
+}
+.orange {
+    color: #FF803A;
+}
+
 .top-home-main {
   width: 100%;
   height: 400px;
