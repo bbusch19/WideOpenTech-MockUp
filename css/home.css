@@ -166,7 +166,7 @@ p {
   height: 75px;
   /*border: 1px solid black;*/
   margin: auto;
-  background: url('../img/firstpic.png') bottom no-repeat;
+  background: url('../img/tooly.png') bottom no-repeat;
   background-size: cover;
   margin-top: 15px;
 
@@ -308,6 +308,121 @@ p {
   margin: auto;
 }
 
+.locations {
+  width: 100%;
+  height: 600px;
+}
+
+.location-wrapper {
+  width: 100%;
+  height: 600px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+}
+
+.wilmington {
+  background: url('../img/wilmington.jpg') bottom no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 50%;
+}
+
+.asheville {
+  background: url('../img/asheville.jpg') bottom no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 50%;
+}
+
+.wilmington-info {
+  width: 300px;
+  height: 200px;
+  background: black;
+  opacity: .7;
+  border-radius: 5px;
+  margin: auto;
+  margin-top: 5%;
+  text-align: center;
+  color: white;
+  padding-top: 50px;
+}
+
+.asheville-info {
+  width: 300px;
+  height: 200px;
+  background: black;
+  opacity: .7;
+  border-radius: 5px;
+  margin: auto;
+  margin-top: 5%;
+  text-align: center;
+  color: white;
+  padding-top: 50px;
+}
+
+.newsletter-section {
+  width: 100%;
+  height: 380px;
+  background: white;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.news-paragraph {
+  width: 80%;
+  height: auto;
+  color: #40666D;
+  margin: auto;
+}
+
+.input-email {
+  width: 90%;
+  height: 50px;
+  background: lightgrey;
+  margin: auto;
+  margin-top: 20px;
+}
+.text-part {
+  height: 90%;
+  width: 70%;
+  color: darkgrey;
+  float: left;
+  text-align: left;
+  padding-top: 10px;
+}
+
+.signup {
+  color: white;
+  font-family: sans-serif;
+  background: #ACC232;
+  height: 100%;
+  width: 30%;
+  font-size: 20px;
+  float: left;
+  padding-top: 10px;
+}
+
+.social {
+  width: 300px;
+  height: 50px;
+  background: url('../img/social.png') bottom no-repeat;
+  background-size: cover;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.footer {
+  height: 75px;
+  width: 100%;
+  background: darkgrey;
+  padding-top: 20px;
+  text-align: center;
+  margin-top: 20px;
+  color: white;
+  font-family: sans-serif;
+}
+
 @media (min-width: 700px) {
   .hamburger{
     display: none;
@@ -347,6 +462,23 @@ p {
   }
   .partners {
     width: 100%;
+    height: 100%;
+  }
+
+  .locations {
+    height: 400px;
+  }
+
+  .location-wrapper {
+    flex-direction: row;
+    height: 400px;
+  }
+
+  .wilmington {
+    height: 100%;
+  }
+
+  .asheville {
     height: 100%;
   }
 
